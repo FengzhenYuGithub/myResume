@@ -1,0 +1,187 @@
+body{
+    font-family: "Microsoft YaHei";
+}
+.icon{
+    background: rgb(64, 210, 177);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+/*µ¼º½*/
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 5px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height:70px;
+    line-height: 35px;
+}
+.navbar-toggle{
+    margin-top:17px;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    font-weight:bold;
+    color:#666;
+    height:70px;
+    line-height:35px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #1C9982;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-nav>li>a:hover{
+    border-bottom: 3px solid #40D2B1;
+    cursor: pointer;
+
+}
+.change{
+    border-bottom: 3px solid #40D2B1;
+}
+
+/*home*/
+#home{
+    margin-top: 70px;
+    background: url("../images/home-bg.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.ivjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 70px 0;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    display: inline-block;
+    margin-top: 30px;
+}
+/*personal*/
+#personal{
+    padding: 80px 0;
+    text-align: center;
+}
+#personal .col-md-4{
+    padding: 15px;
+}
+[class ^="icon_"]{
+    display:inline-block;
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 101px;
+    background: #4ada95;
+    transition: all 0.5s;
+}
+.icon_t{
+    background: #6172ab;
+}
+.icon_f{
+    background: #c470b7;
+}
+#personal [class ^="icon_"]:hover{
+    transform: scale(1.3);
+}
+#personal h2{
+    font-weight: bold;
+}
+/*html5*/
+#html5 #boostarp #jquery{
+    background: #f8f8f8;
+
+}
+#html5,#boostarp{
+    padding: 50px 0;
+}
+#html5 h1{
+    text-align: center;
+    margin: 0px 0 30px 0;
+    font-weight: bold;
+}
+#html5 h2, #boostarp h2, #jquery h2{
+    font-weight: bold;
+}
+#html5 p, #boostarp p,#jquery p{
+    line-height: 25px;
+}
+/*node*/
+#node{
+    background: #f8f8f8;
+    padding: 50px 0;
+    text-align: left;
+}
+#node h2{
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#node .col-md-3{
+    margin-bottom: 20px;
+}
+#node img{
+    margin-bottom: 15px;
+}
+/*app*/
+#work {
+    padding: 80px 0;
+}
+#work h2{
+    font-weight: bold;
+    padding-bottom:20px;
+}
+#work h3{
+    text-align: center;
+}
+#work p{
+    font-size: 15px;
+}
+/*contact*/
+#contact{
+    background: url("../images/map.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+#contact{
+    font-weight: bold;
+    text-align: center;
+}
+#contact .one,#contact .two,#contact .tree{
+    width: 100%;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-top: 20px;
+    background-color: #40D2B1;
+    border-radius: 20px;
+    line-height: 60px;
+}
+#contact .tree span{
+    vertical-align: middle;
+}
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
